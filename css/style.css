@@ -1,0 +1,63 @@
+body{
+	font-family: sans-serif;
+	margin: 0;
+}
+
+header{
+	display: flex;
+	height: 70px;
+	justify-content: space-between;
+	background-color: aqua;
+	align-items: center;
+	padding: 10px;
+}
+
+.logo{
+	display: flex;
+	align-items: center;
+}
+
+.logo img{
+	height: 50px;
+	margin-left: 10px;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+nav a{
+	font-weight: 600;
+	padding-right: 10px;
+}
+
+nav a:hover{
+	color: beige;
+}
+
+@media (max-width:700px){
+	header{
+		flex-direction: column
+		;
+	}
+
+	nav{
+		padding: 10 px 0 px;
+	}
+}
+
+footer{
+
+font-family: Arial, Helvetica, sans-serif;
+font-size: 15px;
+
+	position: relative;
+	margin-top: -10px;
+	width: 100%;
+	padding: 50px;
+	clear: both;
+	background-color: aqua;
+	text-align: center;
+	color: black;
+}
